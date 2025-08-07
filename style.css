@@ -35,7 +35,22 @@ nav a {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.title {
+    width: fit-content;
+    position: relative;
+    top: 5vw;
+    left: 5vw;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    position: relative;
+    top: 12vh;
+    font-size: 25px;
 }
 
 #about {
@@ -55,6 +70,9 @@ section {
 .content img{
     height: 60vh;
     transform: scale(-1, 1);
+    position: relative;
+    top: 20vh;
+    border-radius:5%;
 }
 
 #gallery {
@@ -63,4 +81,10 @@ section {
 
 #contact {
     background-color: #1f5872;
+}
+
+form {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
 }

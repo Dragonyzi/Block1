@@ -14,24 +14,28 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contant">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="section" id="about">
-            <h1>About section</h1>
+            <h1 class="title">About section</h1>
             <div class="content">
-                <p>Hi! I am a novice frontend developer. I am fond of creating beautiful and functional interfaces...</p>
+                <!-- todo можно сделать при наведение смену картинки + 
+                    чтобы при нажатии на картинку слева от неё появлялся дополнительный текст и после трёх сообщений, второе пропадало, заменялось третьим, а третье - четвёртым
+                    + можно сделать эффект нажатия на картинку, чтобы она немного сужалась, затем расширялась и возвращалась в изначальный размер (интерактивность)  -->
+                <p class="text">Hi! I am a novice frontend developer. I am fond of creating beautiful and functional
+                    interfaces...</p>
                 <img src="images/stay.jpg" alt="Cool pose photo">
             </div>
         </section>
         <section class="section" id="gallery">
-            <h2>Gallery of my conditions</h2>
+            <h2 class="title">Gallery of buity images</h2>
             <div class="gallery-container"></div>
         </section>
         <section class="section" id="contact">
-            <h1>Contact with me >_< </h1>
+            <h1 class="title">Contact with me >_< </h1>
                     <form action="">
                         <label for=""></label>
                         <input type="text">
@@ -42,6 +46,7 @@
                     </form>
         </section>
     </main>
+
     <script src="script.js"></script>
 </body>
 
